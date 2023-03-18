@@ -1,0 +1,259 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* font styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* header styles */
+  header {
+    background-color: #ff0066;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1.5;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(246, 136, 63);color: rgb(25, 21, 21);
+  }
+  
+  /* hero section styles index page */
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('/images/bonbons.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #000;padding-bottom: 10px;
+  }
+  
+  .hero p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;margin-top: 10px;
+  }
+  /* exhibit et contact style on index */
+  
+  .exhibits {
+    background-color: #fff;
+    color: #FFA07A;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  
+  .contact {
+    background-color: #fda0fe;
+    color: #fff;
+    padding: 50px;
+    text-align: center;}
+  
+  /* fin de ca */
+  
+  
+  
+
+  
+  /* finish Style for the index page */
+  .about {
+    background-image: url('/images/fondrose.jpg');
+    background-size: cover;
+    color: rgb(29, 66, 80);
+    padding: 80px;
+    text-align: center;
+  }
+  
+  .about h2{margin-bottom: 20px;}
+  /* finish style for the index */
+  
+  /* style for about page */
+  
+  
+  .intro {
+    max-width: 800px;
+    margin: 0 auto 50px;
+  }
+  
+  .intro h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .mission, .team {
+    max-width: 600px;
+    margin: 0 auto 50px;
+  }
+  
+  .mission h2, .team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .mission p, .team p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  /* fin style for the about page  */
+  
+  /* style de contact page */
+
+
+  
+.contact-form {
+    background-color: #f9a28d;
+    padding: 50px;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form button {
+    background-color: #ffb347;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #41eeeb;
+  }
+  
+  /* Contact information section */
+  .contact-info {
+    background-color: #fabfa8;
+    padding: 50px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .contact-info li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  /* fin contact page style */
+
+  /* Footer */
+  footer {
+    background-color: #ff8c61;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+
+
+  /* style page exhibits */
+  .exhibits-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  .exhibit {
+    width: calc(50% - 1rem);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .exhibit img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .exhibit h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exhibit p {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
